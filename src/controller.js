@@ -30,9 +30,21 @@ function createPolicyholder(req, res) {
 }
 
 function getPolicyholderById(req, res) {
-  // Implementar o desafio aqui!
-  // Remova a linha abaixo e comece a codar :)
-  res.status(501).send('Not implemented!');
+  console.log('req')
+  console.log(req.params)
+
+  const newPolicyholder = matchedData(req);
+  const policyholders = findPolicyholderById(newPolicyholder.policyholderId);
+
+  if (!policyholders) {
+    return res.status(404).json();
+  }
+
+  
+  console.log(policyholders)
+
+  
+  return res.json(policyholders);
 }
 
 module.exports = {

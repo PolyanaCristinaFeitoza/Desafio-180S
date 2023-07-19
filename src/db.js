@@ -3,8 +3,32 @@
 // nesta variável, que será passada para todas as
 // rotas através do middleware abaixo.
 const db = {
-  // "Tabela" de segurados
-  policyholders: [],
+  policyholders: [
+    {
+      "id": 325,
+      "name": "Vanessa"
+    },
+    {
+      "id": 201,
+      "name": "Marina"
+    },
+    {
+      "id": 475,
+      "name": "Aline"
+    },
+    {
+      "id": 110,
+      "name": "Keila"
+    },
+    {
+      "id": 123,
+      "name": "Polyana"
+    },
+    {
+      "id": 325,
+      "name": "Daphne"
+    } 
+  ],
 };
 
 function findAllPolicyholders() {
