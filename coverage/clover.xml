@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1689898380706" clover="3.2.0">
-  <project timestamp="1689898380707" name="All files">
+<coverage generated="1689904405798" clover="3.2.0">
+  <project timestamp="1689904405798" name="All files">
     <metrics statements="16" coveredstatements="15" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="3" elements="25" coveredelements="23" complexity="0" loc="16" ncloc="16" packages="1" files="1" classes="1"/>
     <file name="controller.js" path="/home/polyana/laboratoria-180/src/controller.js">
       <metrics statements="16" coveredstatements="15" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="3"/>
